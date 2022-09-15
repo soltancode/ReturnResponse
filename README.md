@@ -2,7 +2,11 @@
 
 It's a return helper for showing standard json responses.
 
-[![Latest Stable Version](http://poser.pugx.org/soltancode/return-response/v)](https://packagist.org/packages/soltancode/return-response) [![Total Downloads](http://poser.pugx.org/soltancode/return-response/downloads)](https://packagist.org/packages/soltancode/return-response) [![Latest Unstable Version](http://poser.pugx.org/soltancode/return-response/v/unstable)](https://packagist.org/packages/soltancode/return-response) [![License](http://poser.pugx.org/soltancode/return-response/license)](https://github.com/soltancode/ReturnResponse/blob/main/LICENSE) [![PHP Version Require](http://poser.pugx.org/soltancode/return-response/require/php)](https://packagist.org/packages/soltancode/return-response)
+[![Packagist Version](https://img.shields.io/packagist/v/soltancode/return-response?label=stable)](https://packagist.org/packages/soltancode/return-response)
+[![Packagist Stars](https://img.shields.io/packagist/stars/soltancode/return-response)](https://packagist.org/packages/soltancode/return-response)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/soltancode/return-response)](https://packagist.org/packages/soltancode/return-response)
+[![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/soltancode/return-response)](https://packagist.org/packages/soltancode/return-response)
+[![Packagist License](https://img.shields.io/packagist/l/soltancode/return-response)](https://github.com/soltancode/ReturnResponse/blob/main/LICENSE)
 
 ## Installation
 
