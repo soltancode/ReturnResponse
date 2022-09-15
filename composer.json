@@ -1,5 +1,6 @@
 {
   "name": "soltancode/return-response",
+  "type": "library",
   "description": "It's a return helper for showing standard responses.",
   "keywords": [
     "soltancode",
@@ -24,7 +25,7 @@
       "src/autoload.php"
     ],
     "psr-4": {
-      "Soltancode\\ReturnResponse\\": "src"
+      "Soltancode\\ReturnResponse\\": "src/"
     }
   }
 }
