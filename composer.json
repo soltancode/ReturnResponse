@@ -5,7 +5,9 @@
     "soltancode",
     "return",
     "response",
-    "laravel"
+    "laravel",
+    "json",
+    "api"
   ],
   "license": "MIT",
   "version": "1.0.0",
