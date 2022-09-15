@@ -6,14 +6,31 @@ It's a return helper for showing standard json responses.
 
 
 
-```bash
+```
 composer require soltancode/return-response
 ```
 
 ## Usage
 
+Code example:
 ```php
+// $httpResponse = 200;
+// $data         = ['success' => true];
+// $message      = "Operation done successfully.";
+            
 return returnResponse()->response($httpResponse, $data, $message);
+```
+
+Response example:
+```json
+{
+    "status_code": 200,
+    "message": "Operation done successfully.",
+    "count": 1,
+    "data": {
+        "success": true
+    }
+}
 ```
 
 ## Contributing
