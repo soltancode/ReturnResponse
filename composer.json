@@ -1,7 +1,8 @@
 {
   "name": "soltancode/return-response",
   "type": "library",
-  "description": "It's a return helper for showing standard responses.",
+  "description": "It's a return helper for showing standard json responses.",
+  "version": "v1.0.0",
   "keywords": [
     "soltancode",
     "return",
