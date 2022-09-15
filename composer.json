@@ -1,0 +1,29 @@
+{
+  "name": "soltancode/return-response",
+  "description": "It's a return helper for showing standard responses.",
+  "keywords": [
+    "soltancode",
+    "return",
+    "response",
+    "laravel"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Soltan Abilgasimzada",
+      "email": "soltancode@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/http": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/autoload.php"
+    ],
+    "psr-4": {
+      "Soltancode\\ReturnResponse\\": "src"
+    }
+  }
+}
