@@ -10,7 +10,8 @@
     "laravel",
     "json",
     "rest",
-    "api"
+    "api",
+    "php"
   ],
   "license": "MIT",
   "authors": [
