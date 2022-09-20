@@ -9,6 +9,7 @@
     "response",
     "laravel",
     "json",
+    "rest",
     "api"
   ],
   "license": "MIT",
@@ -16,7 +17,7 @@
     {
       "name": "Soltan Abilgasimzada",
       "email": "soltancode@gmail.com",
-      "homepage": "https://www.linkedin.com/in/soltancode/"
+      "homepage": "https://soltancode.com"
     }
   ],
   "require": {
