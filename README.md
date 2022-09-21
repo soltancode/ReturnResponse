@@ -2,19 +2,45 @@
 
 It's a return helper for showing standard json responses.
 
+[![Packagist Version](https://img.shields.io/packagist/v/soltancode/return-response?label=stable)](https://packagist.org/packages/soltancode/return-response)
+[![Packagist Stars](https://img.shields.io/packagist/stars/soltancode/return-response)](https://packagist.org/packages/soltancode/return-response)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/soltancode/return-response)](https://packagist.org/packages/soltancode/return-response)
+[![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/soltancode/return-response)](https://packagist.org/packages/soltancode/return-response)
+[![Packagist License](https://img.shields.io/packagist/l/soltancode/return-response)](https://github.com/soltancode/ReturnResponse/blob/main/LICENSE)
+
 ## Installation
 
 
 
-```bash
+```
 composer require soltancode/return-response
 ```
 
 ## Usage
 
+Code example:
 ```php
+// $httpResponse = 200;
+// $data         = ['success' => true];
+// $message      = "Operation done successfully.";
+            
 return returnResponse()->response($httpResponse, $data, $message);
 ```
+
+Response example:
+```json
+{
+    "status_code": 200,
+    "message": "Operation done successfully.",
+    "count": 1,
+    "data": {
+        "success": true
+    }
+}
+```
+
+## Other Packages
+[SendRequest](https://github.com/soltancode/SendRequest) - PHP cURL class that makes it easy to send HTTP requests and integrate with web APIs.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
