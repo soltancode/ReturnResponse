@@ -1,7 +1,7 @@
 {
   "name": "soltancode/return-response",
   "type": "library",
-  "description": "Simple package for returning standard json responses for Laravel Framework.",
+  "description": "Simple package for returning standard json responses for Laravel.",
   "version": "v1.0.1",
   "keywords": [
     "soltancode",
