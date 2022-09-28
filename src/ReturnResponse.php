@@ -2,10 +2,11 @@
 
 namespace Soltancode\ReturnResponse;
 
-use Illuminate\Http\JsonResponse;
+use Soltancode\ReturnResponse\Interfaces\ReturnInterface;
 use Illuminate\Support\Facades\Response;
+use Illuminate\Http\JsonResponse;
 
-class ReturnResponse
+class ReturnResponse implements ReturnInterface
 {
     /**
      * @param int $statusCode

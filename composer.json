@@ -28,10 +28,20 @@
   },
   "autoload": {
     "files": [
-      "src/autoload.php"
+      "src/helpers.php"
     ],
     "psr-4": {
       "Soltancode\\ReturnResponse\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Soltancode\\ReturnResponse\\ReturnResponseServiceProvider"
+      ],
+      "aliases": {
+        "ReturnResponse": "Soltancode\\ReturnResponse\\Facades\\ReturnResponse"
+      }
     }
   }
 }
