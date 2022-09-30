@@ -1,6 +1,6 @@
 # ReturnResponse
 
-It's a return helper for showing standard json responses.
+Simple package for returning standard json responses for Laravel Framework.
 
 [![Packagist Version](https://img.shields.io/packagist/v/soltancode/return-response?label=stable)](https://packagist.org/packages/soltancode/return-response)
 [![Packagist Stars](https://img.shields.io/packagist/stars/soltancode/return-response)](https://packagist.org/packages/soltancode/return-response)
