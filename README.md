@@ -18,16 +18,18 @@ composer require soltancode/return-response
 
 ## Usage
 
+#### If you use it as class (facade), import this:
+```php
+use Soltancode\ReturnResponse\Facades\ReturnResponse;
+```
+
 #### Code example:
 ```php
-# If you don't use this as helper, import this.
-use Soltancode\ReturnResponse\Facades\ReturnResponse;
-
 // $httpResponse = 200;
 // $data         = ['success' => true];
 // $message      = "Operation done successfully.";
 
-# Using as facade:
+# Using as class:
 return ReturnResponse::response($httpResponse, $data, $message);
 
 # Using as helper:
